@@ -15,39 +15,8 @@ $(document).ready(function() {
                 required: true
             },
 
-            "address_1": {
-                required: true,
-
+   
             },
-            "address_2": {
-                required: true,
-            },
-
-            "city": {
-                cityvalidation: true,
-                required: true,
-            },
-            "phone": {
-                required: true,
-                phoneUS: true
-            }
-        },
-        messages: {
-            "address_2": {
-                required: "anotha one"
-            },
-
-
-            "address_1": {
-                required: "anotha one"
-            },
-            
-            "phone":{
-                required: "dem digits"
-                
-            },
-
-        },
 
 
     });
